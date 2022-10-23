@@ -10,7 +10,7 @@ module.exports = {
   },
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = '/DesingSystemReact'
+      config.base = '/DesingSystemReact/'
     }
     return config
   },
